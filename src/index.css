@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Small utility to ensure charts get some height on small screens */
+.h-64 { height: 16rem; }
