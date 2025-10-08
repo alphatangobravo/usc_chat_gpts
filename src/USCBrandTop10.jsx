@@ -114,7 +114,7 @@ export default function USCBrandTop10() {
         <motion.h1 initial={{ opacity: 0, y: 8 }} animate={{ opacity: 1, y: 0 }}
           className="text-3xl tracking-tight"
           style={{ color: brand.garnet, fontFamily: "Impact, 'Arial Black', system-ui, sans-serif", letterSpacing: "0.5px" }}>
-          UNIVERSITY OF SOUTH CAROLINA — TOP UTILIZED GPTS
+          UNIVERSITY OF SOUTH CAROLINA — TOP UTILIZED GPTS (Sept 2025)
         </motion.h1>
         <div className="text-sm" style={{ color: brand.neutral90 }}>
           Showing top ten by messages (descending), excluding GPTs with ≤ 2 unique users.
@@ -133,7 +133,8 @@ export default function USCBrandTop10() {
       </div>
 
       <div className="mt-6 text-xs" style={{ color: brand.neutral90 }}>
-        Notes: Colors and typography follow USC brand guidance (Garnet/Black/White + neutrals; Impact/Arial/Georgia as licensed font substitutes).
+       {/* Notes: Colors and typography follow USC brand guidance (Garnet/Black/White + neutrals; Impact/Arial/Georgia as licensed font substitutes). */}
+       Notes: This dashboard reflects custom GPT usage in the USC ChatGPT EDU workspace for September 2025 (9/1 - 9/30). Total messages and Total unique users are for the Top 10 GPTs shown not all GPTs in workspace.
       </div>
     </div>
   );
